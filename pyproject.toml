@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fractals"
+version = "1.0.0"
+description = "Implementation of some fractacls in Python."
+authors = ["astsu <astsu.work@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.21.0"
+matplotlib = "^3.5.1"
+PySide6 = "^6.2.4"
+numba = "^0.55.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
