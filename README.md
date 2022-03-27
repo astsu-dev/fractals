@@ -54,7 +54,7 @@ By default width and height is 4.
 The following command will display mandelbrot set on x and y axes in (-0.5, 0.5) range:
 
 ```shell
-python -m fraclas.mandelbrot -W 1 -H 1
+python -m fractals.mandelbrot -W 1 -H 1
 ```
 
 ### Iterations:
@@ -65,7 +65,7 @@ By default will be used 1000 iterations.
 The following command will use 5000 iterations:
 
 ```shell
-python -m fraclas.mandelbrot -i 5000
+python -m fractals.mandelbrot -i 5000
 ```
 
 ### Image resolution
@@ -76,7 +76,7 @@ By default image width and height is 1000 px (1000x1000 px).
 The following command will display mandelbrot set with image resolution 2000x2000 px:
 
 ```shell
-python -m fraclas.mandelbrot -iw 2000 -ih 2000
+python -m fractals.mandelbrot -iw 2000 -ih 2000
 ```
 
 ### Color map
@@ -86,7 +86,7 @@ You can set color map (`-c`/`--color-map` option) - colors for display.
 The following command will display mandelbrot set with `inferno` color map:
 
 ```shell
-python -m fraclas.mandelbrot -c inferno
+python -m fractals.mandelbrot -c inferno
 ```
 
 By default color map is `magma`.
