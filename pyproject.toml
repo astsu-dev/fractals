@@ -2,7 +2,7 @@
 name = "fractals"
 version = "1.0.0"
 description = "Implementation of some fractacls in Python."
-authors = ["astsu <astsu.work@gmail.com>"]
+authors = ["astsu <astsu.dev@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
