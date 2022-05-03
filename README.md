@@ -91,6 +91,10 @@ python -m fractals.mandelbrot -c inferno
 
 ### Examples
 
+The following command will display mandelbrot set 
+with center in (-1.24254013716898265806, 0.413238151606368892027) point
+scalled 2 000 000 000 000 times with 10 000 iterations.
+
 ```shell
 python -m fractals.mandelbrot -x -1.24254013716898265806 -y 0.413238151606368892027 -s 2000000000000 -i 10000
 ```
