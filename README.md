@@ -103,7 +103,7 @@ scalled 2 000 000 000 000 times with 10 000 iterations:
 python -m fractals.mandelbrot -x -1.24254013716898265806 -y 0.413238151606368892027 -s 2000000000000 -i 10000
 ```
 
-<img src="images/mandelbrot2.png">
+<img src="images/mandelbrot2.png" style="width: 530px; height: 530px">
 
 By default color map is `magma`.
 
