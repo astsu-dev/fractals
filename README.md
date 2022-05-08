@@ -22,7 +22,7 @@ With 100 iterations:
 python -m fractals.mandelbrot -i 100
 ```
 
-<img src="images/mandelbrot.png">
+<img src="images/mandelbrot.png" style="width: 530px; height: 530px">
 
 ### Center coordinates
 
@@ -32,8 +32,10 @@ By default center coordinates is (0, 0).
 The following command will display mandelbrot set with center in (-2, 0) point:
 
 ```shell
-python -m fractals.mandelbrot -x -2 -y 0
+python -m fractals.mandelbrot -x -1 -y 0 -i 100
 ```
+
+<img src="images/mandelbrot3.png" style="width: 530px; height: 530px">
 
 ### Scaling
 
@@ -43,8 +45,10 @@ By default scale is 1.
 2x scale:
 
 ```shell
-python -m fractals.mandelbrot -s 2
+python -m fractals.mandelbrot -s 2 -i 100
 ```
+
+<img src="images/mandelbrot4.png" style="width: 530px; height: 530px">
 
 Another way to scale is set plot width (`-W`/`--width`) and height (`-H`/`--height`) options. 
 Width is width of region in mandelbrot set. 
